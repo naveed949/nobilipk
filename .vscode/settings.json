@@ -2,5 +2,13 @@
     "workbench.colorCustomizations": {
         "minimap.background": "#00000000",
         "scrollbar.shadow": "#00000000"
-    }
+    },
+        "editor.formatOnSave": true,
+        // Optional: If you want to limit auto-formatting to specific languages, use:
+        "[javascript]": {
+          "editor.formatOnSave": true
+        },
+        // Prettier specific settings (optional)
+        "prettier.singleQuote": true,
+        "prettier.semi": false
 }
