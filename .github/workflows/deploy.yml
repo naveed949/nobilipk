@@ -23,6 +23,11 @@ jobs:
       - name: Build the React app
         run: npm run build
 
+      - name: Configure Git user
+        run: |
+          git config user.name "naveed949"
+          git config user.email "naveediqbal949@gmail.com"
+
       - name: Set up SSH
         uses: webfactory/ssh-agent@v0.5.3
         with:
