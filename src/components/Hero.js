@@ -47,7 +47,9 @@ const Hero = () => {
             backgroundRepeat: 'no-repeat',
             width: '100%',
             height: '100%',
-            paddingTop: '15rem'
+            marginTop: '8rem',
+            marginBottom: '10rem',
+            paddingTop: '5rem'
           }}
         >
           <div
