@@ -1,15 +1,8 @@
 import React, { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
 import NavBar from '../components/Navbar/NavBar'
-import heroImg from '../images/web-dev.svg'
-import nobiliImg from '../images/background-nobili.jpg'
-import coverImg from '../images/p2.png'
 import p1 from '../images/sorgente_home_filtra-1.2400x0.jpg'
-import p2 from '../images/banner-fonderia-1.2400x0.jpg'
-import p3 from '../images/technology_header.2400x0.jpg'
 import p4 from '../images/velis-home-1.2400x0.jpg'
 import p5 from '../images/wellbox-home.2400x0.jpg'
-import p6 from '../images/lavorazionemateria_header-1.2400x0.jpg'
 
 const Hero = () => {
   // Array of image sources

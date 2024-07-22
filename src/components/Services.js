@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import img from '../images/products/bathroom.webp';
 import img2 from '../images/products/kitchen.webp';
 import img3 from '../images/products/shower.jpg';

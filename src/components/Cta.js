@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import img from '../images/cover.jpg';
 const Cta = () => {
     return (
         <div className="w-full flex items-center justify-center text-white cta">
