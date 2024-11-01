@@ -59,16 +59,16 @@ const Contact = () => {
                 </div>
                 <div className="flex flex-col">
                   <h2 className="text-2xl">Call Us</h2>
-                  <p className="text-gray-400">+923344007310</p>
+                  <p className="text-gray-400">Tel: (051) 6103991</p>
                   <div className="mt-5">
                     <h2 className="text-2xl">E-mail</h2>
-                    <p className="text-gray-400">info@mld.ng</p>
+                    <p className="text-gray-400">nobili.pk@outlook.com</p>
                   </div>
                 </div>
               </div>
               <div className="flex w-2/3 my-4 lg:w-1/2">
                 <a
-                  href="https://www.facebook.com/ENLIGHTENEERING/"
+                  href="https://www.facebook.com/profile.php?id=61560565391954"
                   target="_blank"
                   rel="noreferrer"
                   className="flex justify-center w-8 h-8 pt-1 mx-1 text-center text-blue-900 bg-white rounded-full"
