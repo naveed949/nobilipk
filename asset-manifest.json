@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nobilipk/static/css/main.067236f1.css",
-    "main.js": "/nobilipk/static/js/main.17921fde.js",
+    "main.css": "/nobilipk/static/css/main.b46c3291.css",
+    "main.js": "/nobilipk/static/js/main.a86a92a0.js",
     "static/media/cover.jpg": "/nobilipk/static/media/cover.0a770ef2a6c29e710f89.jpg",
     "static/media/velis-home-1.2400x0.jpg": "/nobilipk/static/media/velis-home-1.2400x0.c88dbeb779301be0e8a6.jpg",
     "static/media/sorgente_home_filtra-1.2400x0.jpg": "/nobilipk/static/media/sorgente_home_filtra-1.2400x0.208b0ed9badb51b6f928.jpg",
@@ -14,11 +14,11 @@
     "static/media/nobili-logo.svg": "/nobilipk/static/media/nobili-logo.293fbc060e6b12486bc627e4ad17a8f3.svg",
     "index.html": "/nobilipk/index.html",
     "static/media/hero-bg.svg": "/nobilipk/static/media/hero-bg.c3b4448a16ff1a8da834.svg",
-    "main.067236f1.css.map": "/nobilipk/static/css/main.067236f1.css.map",
-    "main.17921fde.js.map": "/nobilipk/static/js/main.17921fde.js.map"
+    "main.b46c3291.css.map": "/nobilipk/static/css/main.b46c3291.css.map",
+    "main.a86a92a0.js.map": "/nobilipk/static/js/main.a86a92a0.js.map"
   },
   "entrypoints": [
-    "static/css/main.067236f1.css",
-    "static/js/main.17921fde.js"
+    "static/css/main.b46c3291.css",
+    "static/js/main.a86a92a0.js"
   ]
 }
