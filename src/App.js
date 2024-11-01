@@ -1,18 +1,14 @@
-import React, { useEffect } from 'react';
-import AOS from 'aos';
-import "aos/dist/aos.css";
-import './index.css';
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route
-} from 'react-router-dom';
+import React, { useEffect } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import './index.css'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 // All pages
-import Home from './pages/Home';
-import Contact from './pages/Contact';
+import Home from './pages/Home'
+import Contact from './pages/Contact'
 
-import { useDocTitle } from './components/CustomHook';
-import ScrollToTop from './components/ScrollToTop';
+import { useDocTitle } from './components/CustomHook'
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   useEffect(() => {
@@ -21,15 +17,15 @@ function App() {
         once: true,
         duration: 1000,
         easing: 'ease-out-cubic',
-      });
+      })
     }
 
     window.addEventListener('load', () => {
-      aos_init();
-    });
-  }, []);
+      aos_init()
+    })
+  }, [])
 
-  useDocTitle("Nobili - in Pakistan");
+  useDocTitle('Nobili - in Pakistan')
 
   return (
     <>
@@ -42,8 +38,7 @@ function App() {
         </ScrollToTop>
       </Router>
     </>
-  );
+  )
 }
 
-
-export default App;
+export default App

@@ -24,7 +24,7 @@ const Contact = () => {
                 Our Location
               </h1>
             </div>
-            <div className="mt-5">
+            <div className="mt-4">
               <iframe
                 title="map"
                 src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3326.1761481440562!2d73.14339727569391!3d33.52280557336095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDMxJzIyLjEiTiA3M8KwMDgnNDUuNSJF!5e0!3m2!1sen!2s!4v1730425919409!5m2!1sen!2s"
