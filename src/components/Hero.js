@@ -3,30 +3,31 @@ import NavBar from '../components/Navbar/NavBar'
 import p1 from '../images/sorgente_home_filtra-1.2400x0.jpg'
 import p4 from '../images/velis-home-1.2400x0.jpg'
 import p5 from '../images/wellbox-home.2400x0.jpg'
+import p10 from '../images/clients/5.jpg'
 
 const Hero = () => {
   // Array of image sources
-  const images = [p5, p4, p1]
+  // const images = [p5, p4, p1]
 
   // State to hold the current image source
-  const [currentImg, setCurrentImg] = useState(images[0])
+  // const [currentImg, setCurrentImg] = useState(images[0])
 
-  useEffect(() => {
-    // Function to update the current image
-    const updateImage = () => {
-      setCurrentImg((prevImg) => {
-        const currentIndex = images.indexOf(prevImg)
-        const nextIndex = (currentIndex + 1) % images.length // Loop back to the first image after the last
-        return images[nextIndex]
-      })
-    }
+  // useEffect(() => {
+  //   // Function to update the current image
+  //   const updateImage = () => {
+  //     setCurrentImg((prevImg) => {
+  //       const currentIndex = images.indexOf(prevImg)
+  //       const nextIndex = (currentIndex + 1) % images.length // Loop back to the first image after the last
+  //       return images[nextIndex]
+  //     })
+  //   }
 
-    // Set up the interval
-    const intervalId = setInterval(updateImage, 2000) // Change image every 2 seconds
+  //   // Set up the interval
+  //   const intervalId = setInterval(updateImage, 2000) // Change image every 2 seconds
 
-    // Clean up the interval on component unmount
-    return () => clearInterval(intervalId)
-  }, []) // Empty dependency array means this effect runs once on mount
+  //   // Clean up the interval on component unmount
+  //   return () => clearInterval(intervalId)
+  // }, []) // Empty dependency array means this effect runs once on mount
 
   return (
     <>
