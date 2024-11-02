@@ -72,8 +72,8 @@ const Hero = () => {
                 role="alert"
               >
                 <p>
-                  It is an official <strong>Nobili</strong> store in Pakistan.
-                  Brougt to you by <strong>JQ Traders</strong>.
+                  It is an official <strong>Nobili</strong> store in Pakistan,
+                  brougt to you by <strong>JQ Traders</strong>.
                 </p>
               </div>
               <div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
