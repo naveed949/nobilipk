@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import NavBar from '../components/Navbar/NavBar'
 import p1 from '../images/sorgente_home_filtra-1.2400x0.jpg'
 import p4 from '../images/velis-home-1.2400x0.jpg'
-import p5 from '../images/wellbox-home.2400x0.jpg'
-import p10 from '../images/clients/5.jpg'
+// import p5 from '../images/wellbox-home.2400x0.jpg'
+// import p10 from '../images/clients/5.jpg'
 
 const Hero = () => {
   // Array of image sources
