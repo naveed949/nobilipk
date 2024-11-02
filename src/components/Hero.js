@@ -30,15 +30,13 @@ const Hero = () => {
 
   return (
     <>
-      <div className="hero" id="hero"
-
-      >
+      <div className="hero" id="home">
         <div>
           <NavBar />
         </div>
 
         <div
-          className="m-auto overflow-hidden mx-4 mt-8 lg:mt-4 p-2 md:p-12 h-5/6"
+          className="p-2 m-auto mx-4 mt-8 overflow-hidden lg:mt-4 md:p-12 h-5/6"
           data-aos="zoom-in"
           style={{
             backgroundImage: `url(${p1})`,
@@ -49,40 +47,40 @@ const Hero = () => {
             height: '100%',
             marginTop: '8rem',
             marginBottom: '10rem',
-            paddingTop: '5rem'
+            paddingTop: '5rem',
           }}
         >
           <div
-            id="hero"
-            className="flex flex-col lg:flex-row py-8 justify-between text-center lg:text-left"
-
-
+            id="home"
+            className="flex flex-col justify-between py-8 text-center lg:flex-row lg:text-left"
           >
             <div
-              className="lg:w-1/2 flex flex-col justify-center"
+              className="flex flex-col justify-center lg:w-1/2"
               data-aos="zoom-in"
               data-aos-delay="200"
             >
-              <h1 className="mb-5 md:text-5xl text-3xl font-bold text-blue-900">
+              <h1 className="mb-5 text-3xl font-bold text-blue-900 md:text-5xl">
                 Wonder in every drop
               </h1>
 
-              <div className="text-xl font-semibold tracking-tight mb-5 text-gray-500">
+              <div className="mb-5 text-xl font-semibold tracking-tight text-gray-500">
                 Let you marvel at taps and showers of the highest made in Italy
                 excellence, 100% Nobili since 1954.
               </div>
               <div
-                className="border-l-4 border-yellow-600 text-yellow-600 p-1 flex items-center"
+                className="flex items-center p-1 text-yellow-600 border-l-4 border-yellow-600"
                 role="alert"
               >
-                <p>It is an official <strong>Nobili</strong> store in Pakistan.</p>
+                <p>
+                  It is an official <strong>Nobili</strong> store in Pakistan.
+                </p>
               </div>
               <div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
                 <a
                   href="https://www.nobili.it/en/manifest/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0"
+                  className="inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg text-white bg-blue-900 shadow-xl hover:bg-blue-800 rounded-2xl sm:w-auto sm:mb-0"
                 >
                   Discover Nobili
                   <svg
@@ -101,7 +99,7 @@ const Hero = () => {
               </div>
             </div>
             <div
-              className="flex lg:justify-end w-full lg:w-1/2 rounded-t"
+              className="flex w-full rounded-t lg:justify-end lg:w-1/2"
               data-aos="fade-up"
               data-aos-delay="700"
               style={{
@@ -110,7 +108,7 @@ const Hero = () => {
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',
                 width: '100%',
-                height: '100%'
+                height: '100%',
               }}
             >
               {/* Image is now set as background of this div */}
