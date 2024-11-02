@@ -1,5 +1,17 @@
 import React from 'react'
 import img from '../images/cover.jpg'
+import p1 from '../images/clients/1.jpg'
+import p2 from '../images/clients/2.jpg'
+import p3 from '../images/clients/3.jpg'
+import p4 from '../images/clients/4.jpg'
+import p5 from '../images/clients/5.jpg'
+import p6 from '../images/clients/6.jpg'
+import p7 from '../images/clients/7.jpg'
+import p8 from '../images/clients/8.jpg'
+import p9 from '../images/clients/9.jpg'
+import p10 from '../images/clients/10.jpg'
+import p11 from '../images/clients/11.jpg'
+import p12 from '../images/clients/12.jpg'
 import { Link } from 'react-router-dom'
 
 const Intro = () => {
@@ -54,6 +66,58 @@ const Intro = () => {
               </svg>
             </Link>
           </div>
+        </div>
+        <div className="flex justify-center h-full py-4 space-x-4 overflow-x-auto">
+          <img
+            src={p2}
+            alt="Accessories"
+            className="object-cover transition-transform duration-300 transform w-36 h-36 hover:scale-150"
+          />
+          <img
+            src={p3}
+            alt="Kitchen"
+            className="object-cover transition-transform duration-300 transform w-36 h-36 hover:scale-150"
+          />
+          <img
+            src={p4}
+            alt="Bathroom"
+            className="object-cover transition-transform duration-300 transform w-36 h-36 hover:scale-150"
+          />
+          <img
+            src={p5}
+            alt="Shower"
+            className="object-cover transition-transform duration-300 transform w-36 h-36 hover:scale-150"
+          />
+          <img
+            src={p6}
+            alt="Accessories"
+            className="object-cover transition-transform duration-300 transform w-36 h-36 hover:scale-150"
+          />
+          <img
+            src={p10}
+            alt="Kitchen"
+            className="object-cover transition-transform duration-300 transform w-36 h-36 hover:scale-150"
+          />
+          <img
+            src={p8}
+            alt="Bathroom"
+            className="object-cover transition-transform duration-300 transform w-36 h-36 hover:scale-150"
+          />
+          {/* <img
+            src={p9}
+            alt="Shower"
+            className="object-cover transition-transform duration-300 transform w-36 h-36 hover:scale-150"
+          />
+          <img
+            src={p10}
+            alt="Bathroom"
+            className="object-cover transition-transform duration-300 transform w-36 h-36 hover:scale-150"
+          />
+          <img
+            src={p11}
+            alt="Shower"
+            className="object-cover transition-transform duration-300 transform w-36 h-36 hover:scale-150"
+          /> */}
         </div>
       </div>
     </>
