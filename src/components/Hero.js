@@ -1,9 +1,9 @@
 import React from 'react'
 import NavBar from '../components/Navbar/NavBar'
-import p1 from '../images/sorgente_home_filtra-1.2400x0.jpg'
-import p4 from '../images/velis-home-1.2400x0.jpg'
-// import p5 from '../images/wellbox-home.2400x0.jpg'
-// import p10 from '../images/clients/5.jpg'
+// import p1 from '../images/sorgente_home_filtra-1.2400x0.jpg'
+// import p4 from '../images/velis-home-1.2400x0.jpg'
+// import p5 from '../images/hero-bg.svg'
+// import p10 from '../images/hero-img.svg'
 
 const Hero = () => {
   // Array of image sources
@@ -39,21 +39,15 @@ const Hero = () => {
         <div
           className="p-2 m-auto mx-4 mt-8 overflow-hidden lg:mt-4 md:p-12 h-5/6"
           data-aos="zoom-in"
+          id="home-main"
           style={{
-            backgroundImage: `url(${p1})`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'right',
-            backgroundRepeat: 'no-repeat',
-            width: '100%',
-            height: '100%',
-            marginTop: '8rem',
             marginBottom: '5rem',
             paddingTop: '5rem',
           }}
         >
           <div
-            id="home"
-            className="flex flex-col justify-between py-8 text-center lg:flex-row lg:text-left"
+            id="home1"
+            className="flex flex-col justify-start py-8 text-center lg:flex-row lg:text-left"
           >
             <div
               className="flex flex-col justify-center lg:w-1/2"
@@ -101,19 +95,14 @@ const Hero = () => {
               </div>
             </div>
             <div
-              className="flex w-full rounded-t lg:justify-end lg:w-1/2"
-              data-aos="fade-up"
-              data-aos-delay="700"
-              style={{
-                backgroundImage: `url(${p4})`,
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-                backgroundRepeat: 'no-repeat',
-                width: '100%',
-                height: '100%',
-              }}
+              className="flex flex-col justify-center lg:w-1/2"
+              style={{ marginBottom: '5rem' }}
             >
-              {/* Image is now set as background of this div */}
+              {/* <img
+                alt="Nobili taps"
+                className="float-right h-full rounded-t"
+                src={p1}
+              /> */}
             </div>
           </div>
         </div>
