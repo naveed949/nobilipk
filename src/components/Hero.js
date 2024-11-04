@@ -47,7 +47,7 @@ const Hero = () => {
         >
           <div
             id="home1"
-            className="flex flex-col justify-start py-8 text-center lg:flex-row lg:text-left"
+            className="flex flex-col py-8 text-center tify-start al lg:flex-row lg:text-left"
           >
             <div
               className="flex flex-col justify-center lg:w-1/2"

@@ -5,6 +5,7 @@ import './index.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 // All pages
 import Home from './pages/Home'
+import Contact from './pages/Contact'
 
 import { useDocTitle } from './components/CustomHook'
 import ScrollToTop from './components/ScrollToTop'
@@ -32,6 +33,7 @@ function App() {
         <ScrollToTop>
           <Routes>
             <Route path="/nobilipk" element={<Home />} />
+            <Route path="/nobilipk/contact" element={<Contact />} />
           </Routes>
         </ScrollToTop>
       </Router>

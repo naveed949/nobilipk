@@ -2,7 +2,7 @@ import React from 'react'
 import Cta from '../components/Cta'
 import Hero from '../components/Hero'
 import Intro from '../components/Intro'
-import Contact from './Contact'
+// import Contact from './Contact'
 import Services from '../components/Services'
 
 const Home = () => {
@@ -12,7 +12,7 @@ const Home = () => {
       <Intro />
       <Services />
       {/* <Portfolio /> */}
-      <Contact />
+      {/* <Contact /> */}
       <Cta />
       {/* <Footer /> */}
     </>
