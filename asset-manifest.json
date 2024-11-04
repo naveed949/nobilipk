@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nobilipk/static/css/main.f251c4fd.css",
-    "main.js": "/nobilipk/static/js/main.d52c9a45.js",
+    "main.js": "/nobilipk/static/js/main.6584d0c5.js",
     "static/media/3.jpg": "/nobilipk/static/media/3.e2ea7a9be5c1e94c0cf6.jpg",
     "static/media/5.jpg": "/nobilipk/static/media/5.935b68fb420f9273afb3.jpg",
     "static/media/4.jpg": "/nobilipk/static/media/4.2f2bf617de4d5f765d24.jpg",
@@ -20,10 +20,10 @@
     "index.html": "/nobilipk/index.html",
     "static/media/hero-bg.svg": "/nobilipk/static/media/hero-bg.c3b4448a16ff1a8da834.svg",
     "main.f251c4fd.css.map": "/nobilipk/static/css/main.f251c4fd.css.map",
-    "main.d52c9a45.js.map": "/nobilipk/static/js/main.d52c9a45.js.map"
+    "main.6584d0c5.js.map": "/nobilipk/static/js/main.6584d0c5.js.map"
   },
   "entrypoints": [
     "static/css/main.f251c4fd.css",
-    "static/js/main.d52c9a45.js"
+    "static/js/main.6584d0c5.js"
   ]
 }
