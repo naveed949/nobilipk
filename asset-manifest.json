@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/nobilipk/static/css/main.552c252a.css",
-    "main.js": "/nobilipk/static/js/main.0f664c65.js",
-    "static/media/3.jpg": "/nobilipk/static/media/3.e2ea7a9be5c1e94c0cf6.jpg",
-    "static/media/5.jpg": "/nobilipk/static/media/5.935b68fb420f9273afb3.jpg",
-    "static/media/4.jpg": "/nobilipk/static/media/4.2f2bf617de4d5f765d24.jpg",
-    "static/media/8.jpg": "/nobilipk/static/media/8.c09152bee91144934c1f.jpg",
-    "static/media/10.jpg": "/nobilipk/static/media/10.9cae07f155f75ba2fe07.jpg",
-    "static/media/6.jpg": "/nobilipk/static/media/6.8f3c579683c3ac7fbbe1.jpg",
-    "static/media/2.jpg": "/nobilipk/static/media/2.4f53a19d4c123eeda14e.jpg",
-    "static/media/cover.jpg": "/nobilipk/static/media/cover.0a770ef2a6c29e710f89.jpg",
-    "static/media/shower.jpg": "/nobilipk/static/media/shower.bcce383a147a4ace8a75.jpg",
-    "static/media/bathroom.webp": "/nobilipk/static/media/bathroom.34cf5c2aad429b3c4280.webp",
-    "static/media/accessories.webp": "/nobilipk/static/media/accessories.745043ae9a7b7c39c771.webp",
-    "static/media/kitchen.webp": "/nobilipk/static/media/kitchen.0187f75fe69052291bbe.webp",
-    "static/media/background-nobili.jpg": "/nobilipk/static/media/background-nobili.d9b9efb53c07a147cb02.jpg",
-    "static/media/footer.svg": "/nobilipk/static/media/footer.70b54bbe52a797ce69c1.svg",
-    "static/media/nobili-logo.svg": "/nobilipk/static/media/nobili-logo.293fbc060e6b12486bc627e4ad17a8f3.svg",
-    "index.html": "/nobilipk/index.html",
-    "static/media/hero-bg.svg": "/nobilipk/static/media/hero-bg.c3b4448a16ff1a8da834.svg",
-    "main.552c252a.css.map": "/nobilipk/static/css/main.552c252a.css.map",
-    "main.0f664c65.js.map": "/nobilipk/static/js/main.0f664c65.js.map"
+    "main.css": "/static/css/main.8f547d3f.css",
+    "main.js": "/static/js/main.18374827.js",
+    "static/media/3.jpg": "/static/media/3.e2ea7a9be5c1e94c0cf6.jpg",
+    "static/media/5.jpg": "/static/media/5.935b68fb420f9273afb3.jpg",
+    "static/media/4.jpg": "/static/media/4.2f2bf617de4d5f765d24.jpg",
+    "static/media/8.jpg": "/static/media/8.c09152bee91144934c1f.jpg",
+    "static/media/10.jpg": "/static/media/10.9cae07f155f75ba2fe07.jpg",
+    "static/media/6.jpg": "/static/media/6.8f3c579683c3ac7fbbe1.jpg",
+    "static/media/2.jpg": "/static/media/2.4f53a19d4c123eeda14e.jpg",
+    "static/media/cover.jpg": "/static/media/cover.0a770ef2a6c29e710f89.jpg",
+    "static/media/shower.jpg": "/static/media/shower.bcce383a147a4ace8a75.jpg",
+    "static/media/bathroom.webp": "/static/media/bathroom.34cf5c2aad429b3c4280.webp",
+    "static/media/accessories.webp": "/static/media/accessories.745043ae9a7b7c39c771.webp",
+    "static/media/kitchen.webp": "/static/media/kitchen.0187f75fe69052291bbe.webp",
+    "static/media/background-nobili.jpg": "/static/media/background-nobili.d9b9efb53c07a147cb02.jpg",
+    "static/media/footer.svg": "/static/media/footer.70b54bbe52a797ce69c1.svg",
+    "static/media/nobili-logo.svg": "/static/media/nobili-logo.293fbc060e6b12486bc627e4ad17a8f3.svg",
+    "index.html": "/index.html",
+    "static/media/hero-bg.svg": "/static/media/hero-bg.c3b4448a16ff1a8da834.svg",
+    "main.8f547d3f.css.map": "/static/css/main.8f547d3f.css.map",
+    "main.18374827.js.map": "/static/js/main.18374827.js.map"
   },
   "entrypoints": [
-    "static/css/main.552c252a.css",
-    "static/js/main.0f664c65.js"
+    "static/css/main.8f547d3f.css",
+    "static/js/main.18374827.js"
   ]
 }
