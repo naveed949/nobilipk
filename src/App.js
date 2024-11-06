@@ -32,8 +32,8 @@ function App() {
       <Router>
         <ScrollToTop>
           <Routes>
-            <Route path="/nobilipk" element={<Home />} />
-            <Route path="/nobilipk/contact" element={<Contact />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </ScrollToTop>
       </Router>

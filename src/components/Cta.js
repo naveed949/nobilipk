@@ -17,7 +17,7 @@ const Cta = () => {
 
           <div className="w-full pt-6 lg:w-72 lg:mx-12">
             <Link
-              to="/nobilipk/contact"
+              to="/contact"
               className="flex items-center justify-center px-10 py-3 text-center text-white bg-transparent border rounded-lg hover:bg-blue-900 hover:border-blue-800 group"
             >
               Contact Us

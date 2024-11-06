@@ -7,27 +7,27 @@ const NavLinks = () => {
       <HashLink
         className="px-4 font-extrabold text-gray-500 hover:text-blue-900"
         smooth
-        to="/nobilipk#home"
+        to="/#home"
       >
         Home
       </HashLink>
       <HashLink
         className="px-4 font-extrabold text-gray-500 hover:text-blue-900"
         smooth
-        to="/nobilipk#products"
+        to="/#products"
       >
         Products
       </HashLink>
       <HashLink
         className="px-4 font-extrabold text-gray-500 hover:text-blue-900"
         smooth
-        to="/nobilipk#about"
+        to="/#about"
       >
         About
       </HashLink>
       <HashLink
         className="px-4 font-extrabold text-gray-500 hover:text-blue-900"
-        to="/nobilipk/contact"
+        to="/contact"
       >
         Contact Us
       </HashLink>
