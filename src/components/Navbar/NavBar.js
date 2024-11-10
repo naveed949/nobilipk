@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import NavLinks from '../Navbar/NavLinks'
 import { HashLink } from 'react-router-hash-link'
-import NobiliLogo from '../../images/nobili-logo.svg'
+// import NobiliLogo from '../../images/nobili-logo.svg'
 
 const NavBar = () => {
   const [top, setTop] = useState(!window.scrollY)
