@@ -27,7 +27,8 @@ const NavBar = () => {
       <div className="flex flex-row items-center justify-between py-2">
         <div className="flex flex-row items-center justify-center font-semibold text-center md:px-8 md:mx-8">
           <HashLink smooth to="/#home">
-            <img src={NobiliLogo} alt="Nobili" className="w-40 h-20" />
+            {/* <img src={NobiliLogo} alt="Nobili" className="w-40 h-20" /> */}
+            <h1 className="text-2xl font-bold text-blue-900">JQ Traders</h1>
           </HashLink>
         </div>
         <div className="flex flex-col items-center group">
