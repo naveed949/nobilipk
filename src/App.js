@@ -25,7 +25,7 @@ function App() {
     })
   }, [])
 
-  useDocTitle('Nobili - in Pakistan')
+  useDocTitle('JQTraders')
 
   return (
     <>

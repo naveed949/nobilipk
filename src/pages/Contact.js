@@ -3,7 +3,7 @@ import NavBar from '../components/Navbar/NavBar'
 import { useDocTitle } from '../components/CustomHook'
 
 const Contact = () => {
-  useDocTitle('Nobili | Contact Us')
+  useDocTitle('JQTraders | Contact Us')
 
   return (
     <>
