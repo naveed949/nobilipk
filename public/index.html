@@ -23,7 +23,8 @@
     <script type="text/javascript">
       // Check if redirected from 404.html
       var redirectTo = window.location.search.substring(1)
-      if (redirectTo) {
+      console.log('redirecting to > ' + redirectTo)
+      if (redirectTo && redirectTo == 'contact') {
         window.history.replaceState({}, '', redirectTo)
       }
     </script>
