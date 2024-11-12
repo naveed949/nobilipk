@@ -48,7 +48,7 @@ const Contact = () => {
                 <div className="flex flex-col">
                   <h2 className="text-2xl">Office Address</h2>
                   <p className="text-gray-400">
-                    Gate # 2, main G.T. Rd, opposite Dha, Islamabad, Islamabad
+                    Gate # 2, main G.T. Rd, opposite DHA, Islamabad, Islamabad
                     Capital Territory, Pakistan
                   </p>
                 </div>
@@ -60,6 +60,8 @@ const Contact = () => {
                 <div className="flex flex-col">
                   <h2 className="text-2xl">Call Us</h2>
                   <p className="text-gray-400">Tel: (051) 6103991</p>
+                  <p className="text-gray-400">Whatsapp:</p>
+                  <p className="text-gray-400"> (+92) 328 2335577</p>
                   <div className="mt-5">
                     <h2 className="text-2xl">E-mail</h2>
                     <p className="text-gray-400">nobili.pk@outlook.com</p>
