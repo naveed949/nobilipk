@@ -11,7 +11,11 @@
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="JQ Traders - Official Nobili Store in Pakistan. Discover high-quality Italian faucets and mixers from Nobili."
+    />
+    <meta
+      name="keywords"
+      content="jq traders, nobilipk, nobili, nobili pakistan, italian"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
@@ -25,6 +29,21 @@
       var redirectTo = window.location.search.substring(1)
       if (redirectTo && redirectTo == '/contact') {
         window.history.replaceState({}, '', redirectTo)
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Store",
+        "name": "JQ Traders",
+        "description": "Official Nobili Store in Pakistan. Discover high-quality Italian faucets and mixers from Nobili.",
+        "url": "https://jqtraders.com",
+        "logo": "https://jqtraders.com/logo192.png",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+92-51-6103991",
+          "contactType": "Customer Service"
+        }
       }
     </script>
   </head>
