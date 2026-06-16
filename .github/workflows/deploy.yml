@@ -23,6 +23,8 @@ jobs:
       - name: Build the React app
         run: npm run build
 
+        
+
       - name: Configure Git user
         run: |
           git config user.name "naveed949"
@@ -35,3 +37,15 @@ jobs:
 
       - name: Deploy to GitHub Pages
         run: npm run deploy
+
+
+              - name: Jekyll SEO Generator
+  # You may pin to the exact commit or the version.
+  # uses: AlphaGit/jekyll-seo-ai-action@f0ca8f813bc79f2f0d8ff82e885481675e7f2de6
+  uses: AlphaGit/jekyll-seo-ai-action@v1.0
+  with:
+    # OpenAI API key
+    openai-api-key: 
+    # GitHub token
+    github-token: 
+          
